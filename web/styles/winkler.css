@@ -1,0 +1,97 @@
+/*
+Copyright (c) 2015 Michael Winkler
+*/
+
+html {
+  height:100%;
+  width:100%;
+}
+body {
+  font-family: verdana, sans-serif;  
+  margin: 6em 5em;
+  max-width: 725px;
+}
+
+header {
+  margin: 0 auto;
+  text-align:center;  
+  width: 100%;
+}
+
+main{
+  line-height: 130%;
+}
+
+h1, h2, dl {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.1em;  
+  text-decoration: underline;
+}
+
+dl{
+  margin-bottom:1em;
+}
+
+dt{
+  font-weight:bold;
+}
+
+dd {
+  display: list-item;
+  list-style-type: disc;
+}
+
+.bold {
+  display: inline;
+  font-weight: bold;
+}
+
+.position{
+  font-style: italic;
+}
+
+.prospective{
+  color:red;
+}
+.inline-date {
+  display: none;
+}
+
+.float-right-date{
+  display:inline;
+  float:right;
+  font-style: normal;
+  font-weight: normal;
+}
+
+#vanishing-bullet {
+  display: inline;
+}
+
+#education {
+  margin: 1em 0;
+}
+
+@media screen and (max-width: 500px) {
+  #vanishing-bullet {
+    display:none;
+  }
+
+  .inline-date{
+    display:inline;
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  .float-right-date{
+    display:none;
+  }
+}
